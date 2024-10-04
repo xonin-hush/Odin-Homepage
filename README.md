@@ -1,8 +1,8 @@
-# [blank](https://todo.xonin.dev)
-Fourth project in "the odin project" JavaScript Course, it demonstrates JSON, OOP Principles as of other stuff.  [The Odin Project-JavaScript](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
+# [Odin-Homepage]()
+the one and only project in "the odin project" Advanced HTML and CSS Course, it demonstrates JSON, OOP Principles as of other stuff.  [The Odin Project-JavaScript](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript).
 
 ## Links
-[Visit website](https://todo.xonin.dev)
+[Visit website]()
 
 ## Technologies used
 ![HTML5](https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=FFF)
@@ -11,18 +11,11 @@ Fourth project in "the odin project" JavaScript Course, it demonstrates JSON, OO
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 ## Features
-- Ability to create Projects
-- Ability to create Todos inside a project 
-- Ability to Remove Todos
-- All data will be stored in the local storage as a JSON file (you will not lose your data after refreshing)
+
+
 ## Things I got a better understanding of
-- Dom manipulation
-- Webpack bundler
-- Handling local storage
-- JSON format 
-- Some OOP Principles
-- Putting { once: true } at the end of eventListeners so you don't keep adding eventListeners on top of each other (would cause unwanted behavior)
-- Deploying projects that use webpack using netlify (which you can find below)
+
+
 ## How to I managed to deploy this project
 
 ### Step 1
@@ -65,7 +58,7 @@ git checkout main
 
 then just go to netlify and deploy your project using on the new branch
 
-#### Srouces
+#### Sources
 
 - https://gist.github.com/cobyism/4730490
 - https://www.30secondsofcode.org/git/s/copy-file-from-branch
