@@ -1,20 +1,21 @@
 /* main css file */
 body {
-    padding: 0px;
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 6fr;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-display: flex;
-flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 6fr;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 html {
-    padding: 0px;
-    margin: 0px;
-
+  padding: 0px;
+  margin: 0px;
 }
 
-
+.logos{
+    height: 1.7rem;
+}
