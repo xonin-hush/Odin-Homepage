@@ -19,7 +19,7 @@ html {
 .logos {
   height: 1.7rem;
 }
-#first-pic {
+#first-image,#second-image {
   height: 20rem;
 }
 .icons img {
@@ -28,16 +28,28 @@ html {
 }
 .cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
   /* grid-column: 1/2; */
   gap: 20px;
 }
+
+/* so the cards become 2 columns if screen width is 768px or less */
+
+@media (max-width:768px) {
+  .cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+/* so the cards become 1 column if screen width is 600px or less */
 @media (max-width:600px) {
   .cards{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
 }
+
 
 
 .card {
