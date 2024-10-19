@@ -21,7 +21,8 @@ html {
   /* display: flex; */
   /* align-items: center; */
 }
-#first-image,#second-image {
+#first-image,
+#second-image {
   height: 20rem;
 }
 .icons img {
@@ -38,44 +39,48 @@ html {
 
 /* so the cards become 2 columns if screen width is 768px or less */
 
-@media (max-width:768px) {
-  .cards{
+@media (max-width: 768px) {
+  .cards {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 /* so the cards become 1 column if screen width is 600px or less */
-@media (max-width:600px) {
-  .cards{
+@media (max-width: 600px) {
+  .cards {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
-
-
-.card {
+.card img {
+  display: flex;
+  max-width: 450px;
+  /* box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); */
+}
+.card-info {
   display: flex;
   flex-direction: column;
   text-align: start;
-  padding: 2em;
+  /* padding: 2em; */
   background-color: #ffffff;
   border-radius: 12px;
+  border-top-left-radius: 0px;
+
   max-width: 450px;
   border-left: 10px solid #7c3aed;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
-section{
+section {
   display: flex;
   flex-direction: column;
 }
-footer{
+footer {
   display: flex;
   justify-content: center;
   gap: 25px;
 }
-.icon{
+.icon {
   display: flex;
   justify-content: center;
-
 }
