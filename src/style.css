@@ -18,6 +18,8 @@ html {
 
 .logos {
   height: 1.7rem;
+  /* display: flex; */
+  /* align-items: center; */
 }
 #first-image,#second-image {
   height: 20rem;
@@ -66,4 +68,14 @@ html {
 section{
   display: flex;
   flex-direction: column;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+
 }
