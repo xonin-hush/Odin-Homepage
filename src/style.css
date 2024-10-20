@@ -2,9 +2,6 @@
 body {
   padding: 0px;
   margin: 0px;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 6fr;
   text-align: center;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -32,9 +29,11 @@ html {
 .cards {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 30rem); 
   /* grid-column: 1/2; */
-  gap: 20px;
+  /* gap: 20px; */
+  justify-content: center;
+  row-gap: 40px;
 }
 
 /* so the cards become 2 columns if screen width is 768px or less */
@@ -55,7 +54,8 @@ html {
 
 .card img {
   display: flex;
-  max-width: 450px;
+  max-width: 25rem;
+  /* min-width: auto; */
   margin-bottom: 0px;
   /* box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); */
 }
@@ -68,7 +68,7 @@ html {
   border-radius: 12px;
   border-top-left-radius: 0px;
   margin-top: 0px;
-  max-width: 450px;
+  max-width: 22.4rem;
   border-left: 10px solid #7c3aed;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
@@ -84,4 +84,9 @@ footer {
 .icon {
   display: flex;
   justify-content: center;
+}
+.icons{
+  display: flex;
+  gap: 7px;
+  /* flex-direction: column; */
 }
