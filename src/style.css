@@ -13,6 +13,23 @@ html {
   margin: 0px;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  background-color: #7c3aed;
+}
+
+#header-info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 2rem;
+  padding: 3rem;
+  padding-left: 6rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
 .logos {
   height: 1.7rem;
   /* display: flex; */
@@ -29,7 +46,7 @@ html {
 .cards {
   display: grid;
   justify-items: center;
-  grid-template-columns: repeat(3, 30rem); 
+  grid-template-columns: repeat(3, 30rem);
   /* grid-column: 1/2; */
   /* gap: 20px; */
   justify-content: center;
@@ -77,6 +94,7 @@ section {
   flex-direction: column;
 }
 footer {
+  padding: 2rem;
   color: white;
   background-color: #7c3aed;
   margin-top: 5rem;
@@ -88,7 +106,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-.icons{
+.icons {
   display: flex;
   gap: 7px;
   /* flex-direction: column; */
