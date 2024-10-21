@@ -47,8 +47,6 @@ header {
   display: grid;
   justify-items: center;
   grid-template-columns: repeat(3, 30rem);
-  /* grid-column: 1/2; */
-  /* gap: 20px; */
   justify-content: center;
   row-gap: 40px;
 }
