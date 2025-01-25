@@ -111,12 +111,13 @@ footer {
   background-color: #7c3aed;
   margin-top: 5rem;
   display: flex;
+  text-align: start;
   justify-content: center;
   gap: 25px;
 }
 .icon {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 .icons {
   display: flex;
